@@ -7,21 +7,22 @@
 #
 
 Pod::Spec.new do |s|
-  s.name = 'SwiftEntryKit'
-  s.version = '2.0.0'
+  s.name = 'TapSwiftEntryKit'
+  s.module_name = 'SwiftEntryKit'
+  s.version = '2.0.1'
   s.summary = 'A simple banner and pop-up displayer for iOS. Written in Swift.'
   s.platform = :ios
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '15.0'
   s.swift_version = '5.0'
   s.requires_arc = true
 
 s.description      = <<-DESC
 SwiftEntryKit is a banner presenter library for iOS. It can be used to easily display pop-ups and notification-like views within your iOS apps. SwiftEntryKit is highly customizable but also offers a bunch of beautiful presets that can be themed with your app fonts and colors.
 DESC
-  s.homepage         = 'https://github.com/huri000/SwiftEntryKit'
+  s.homepage         = 'https://github.com/Tap-Payments/SwiftEntryKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Daniel Huri' => 'huri000@gmail.com' }
-  s.source           = { :git => 'https://github.com/huri000/SwiftEntryKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Tap-Payments/SwiftEntryKit.git', :tag => s.version.to_s }
   s.source_files = 'Source/**/*'
   s.frameworks = 'UIKit'
 end
